@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Step 1: Run Cuckoo Rooter
-gnome-terminal --title="Cuckoo Rooter" -- bash -c "echo 'boot' | sudo -S cuckoo rooter --sudo --group dell"
+gnome-terminal --title="Cuckoo Rooter" -- bash -c "echo '[password user]' | sudo -S cuckoo rooter --sudo --group [user]"
 sleep 2
 xdotool search --onlyvisible --name "Cuckoo Rooter" windowminimize
 
