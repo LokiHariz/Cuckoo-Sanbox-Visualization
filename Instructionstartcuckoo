@@ -1,0 +1,9 @@
+Steps to run cuckoo sandbox:
+1.run terminator.
+2.Run cuckoo rooter --sudo --group [user], cuckoo web --host 127.0.0.1 --port 8080 and cuckoo command in each terminal.
+3.Go to website and type http://127.0.0.1:8080.
+
+If cuckoo cannot start due to unbind result server:
+1.Open terminal
+2.Copy and paste this command:
+VBoxManage hostonlyif ipconfig vboxnet0 --ip 192.168.56.1 --netmask 255.255.255.0
