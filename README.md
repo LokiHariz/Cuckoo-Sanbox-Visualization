@@ -53,4 +53,4 @@ This is a final year project modified cuckoo sandbox 2.0.7 using visualization g
 
 ### To start and run the modified cuckoo sandbox
 
-To run the cuckoo sandbox without typing the command manually, download cuckoo.sh and save it to home/[user]/ directory. Run in the terminal by using command bash cuckoo.sh (make sure to edit the file by inputting your password user). To open the cuckoo web back, run bash opencuckoo.sh.
+To run the cuckoo sandbox without typing the command manually, download cuckoo.sh and save it to home/[user]/ directory. Run in the terminal by using command bash cuckoo.sh (make sure to edit the file by inputting your password user). To open the cuckoo web back, run bash opencuckoo.sh. If it fails to open cuckoo, try rerun again or open Instructionstartcuckoo and debug one by one.
